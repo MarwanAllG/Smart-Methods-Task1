@@ -1,0 +1,21 @@
+# Install Arduino IDE 
+# In Arduino IDE through boards manager install ESP32
+# Connect ESP32 board to the computer
+# Connect Arduino IDE to ESP32
+# We check if we are able to program our ESP32 using this Blink Program
+
+# Blink Program Code
+
+int LED_BUILTIN = 2;
+void setup() {
+pinMode (LED_BUILTIN, OUTPUT);
+}
+void loop() {
+digitalWrite(LED_BUILTIN, HIGH);
+delay(1000);
+digitalWrite(LED_BUILTIN, LOW);
+delay(1000);
+
+}
+
+# If it's blinking it means that we can program our ESP32 through Arduino IDE
