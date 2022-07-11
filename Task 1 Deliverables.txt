@@ -1,0 +1,5 @@
+Task 1: -
+
+	- Create a similar page to this page: https://s-m.com.sa/r2/test/
+
+	- Write an algorithm that run the Wasdom ESP32
